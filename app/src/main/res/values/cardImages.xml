@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cardImages">
+        <item>https://muditsbucket.s3.ap-south-1.amazonaws.com/songs/album_art/genre/ambient.jpg</item>
+        <item>https://muditsbucket.s3.ap-south-1.amazonaws.com/songs/album_art/genre/hiphop.jpg</item>
+        <item>https://muditsbucket.s3.ap-south-1.amazonaws.com/songs/album_art/genre/jazz.jpg</item>
+        <item>https://muditsbucket.s3.ap-south-1.amazonaws.com/songs/album_art/genre/classical.jpg</item>
+        <item>https://muditsbucket.s3.ap-south-1.amazonaws.com/songs/album_art/genre/country.jpg</item>
+    </string-array>
+</resources>

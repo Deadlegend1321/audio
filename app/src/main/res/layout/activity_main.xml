@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wave"
+    tools:context=".MainActivity">
+
+
+       <FrameLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_marginTop="250dp"
+           app:layout_constraintHeight_percent="0.78"
+           android:background="@drawable/curvy">
+
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+               <com.google.android.material.appbar.AppBarLayout
+                   android:id="@+id/appBarLayout"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:background="@color/white"
+                   android:layout_marginTop="35dp"
+                   app:elevation="0dp">
+
+                   <com.google.android.material.tabs.TabLayout
+                       android:id="@+id/tabs"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       app:tabGravity="fill"
+                       android:background="@color/white"
+                       app:tabSelectedTextColor="@color/design_default_color_secondary"
+                       app:tabInlineLabel="true"
+                       app:tabMode="fixed"
+                       app:tabTextAppearance="@style/TextAppearance.MaterialComponents.Headline1"
+                       app:tabTextColor="@color/black" />
+
+               </com.google.android.material.appbar.AppBarLayout>
+
+               <androidx.viewpager.widget.ViewPager
+                   android:id="@+id/viewPager"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_below="@+id/appBarLayout"/>
+
+           </RelativeLayout>
+
+
+
+
+       </FrameLayout>
+
+
+
+
+
+</RelativeLayout>

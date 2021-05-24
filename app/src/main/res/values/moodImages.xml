@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+<string-array name="moodImages">
+    <item>https://muditsbucket.s3.ap-south-1.amazonaws.com/songs/album_art/mood/calm.jpg</item>
+    <item>https://muditsbucket.s3.ap-south-1.amazonaws.com/songs/album_art/mood/romantic.jpg</item>
+    <item>https://muditsbucket.s3.ap-south-1.amazonaws.com/songs/album_art/mood/sad.jpg</item>
+    <item>https://muditsbucket.s3.ap-south-1.amazonaws.com/songs/album_art/mood/dramatic.jpg</item>
+    <item>https://muditsbucket.s3.ap-south-1.amazonaws.com/songs/album_art/mood/dark.jpg</item>
+    <item>https://muditsbucket.s3.ap-south-1.amazonaws.com/songs/album_art/mood/inspire.jpg</item>
+    <item>https://muditsbucket.s3.ap-south-1.amazonaws.com/songs/album_art/mood/bright.jpg</item>
+    <item>https://muditsbucket.s3.ap-south-1.amazonaws.com/songs/album_art/mood/happy.jpg</item>
+</string-array>
+    </resources>

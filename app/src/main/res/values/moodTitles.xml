@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="moodTitles">
+        <item>Calm</item>
+        <item>Romantic</item>
+        <item>Sad</item>
+        <item>Dramatic</item>
+        <item>Dark</item>
+        <item>Inspirational</item>
+        <item>Bright</item>
+        <item>Happy</item>
+    </string-array>
+</resources>
